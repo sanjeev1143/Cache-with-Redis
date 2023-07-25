@@ -4,7 +4,7 @@ Welcome to Cache with Redis, the ultimate repository that will empower your appl
 
 ## 🪄 Why Redis Cache?
 
-Caching plays a pivotal role in enhancing application performance by storing frequently accessed data in a lightning-fast, in-memory data structure. Redis, a powerful and versatile in-memory database, is the key to unlocking exceptional performance boosts for your projects. 
+Caching plays a pivotal role in enhancing application performance by storing frequently accessed data in a lightning-fast, in-memory data structure. Redis, a powerful and versatile in-memory database, is the key to unlocking exceptional performance boosts for your projects.
 
 ## 🚀 Features
 
