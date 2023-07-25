@@ -46,20 +46,6 @@ app.get('/photos',async (req,res)=>{
     })
 
     res.json(photos);
-
-    // const cachedData = await client.get('photos');
-
-    // if(cachedData!=null){
-    //     console.log('Cache Hit');
-    //         return res.json(JSON.parse(cachedData))
-    // }else{
-    //     console.log('Cache Miss');
-        
-    //     client.setEx('photos',DEFAULT_EXPIRATION,JSON.stringify(data));
-    //     res.json(data);
-    // }
-
-   
  
 
 })
@@ -76,21 +62,6 @@ app.get('/photos/:id',async (req,res)=>{
         return data;
     })
     res.json(data);
-
-    // const CachedData = await client.get(`photos?Id=${id}`);
-    // if(CachedData!=null){
-    //     console.log("Cache Hit");
-    //     res.json(JSON.parse(CachedData));
-    // }else{
-    //     console.log("Cache Miss");
-    //     const url = `https://jsonplaceholder.typicode.com/photos/${id}`
-    //     const photos = await fetch(url);
-    //     const data = await photos.json();
-    //     client.setEx(`photos?Id=${id}`,DEFAULT_EXPIRATION,JSON.stringify(data));
-    //     res.json(data);
-    // }
-
-
    
 })
 
